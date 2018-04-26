@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">VenueApp</string>
+    <string name="submit">Submit</string>
+    <string-array name="state_list">
+        <item>Chicago,IL</item>
+        <item>Atlanta,GA</item>
+        <item>Charlotte,NC</item>
+        <item>San Francisco,CA</item>
+        <item>Seattle,WA</item>
+        <item>Orlando,FL</item>
+    </string-array>
+    <string name="loading">Loading Venues...</string>
+    <string name="marked">View Marked Venues</string>
+    <string name="history">Clear History</string>
+
+
+
+</resources>
