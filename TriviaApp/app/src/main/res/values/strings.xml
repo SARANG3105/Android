@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Homework03</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_start">Start Trivia</string>
+    <string name="welcome">Welcome To</string>
+    <string name="app">Trivia App</string>
+    <string name="ready">Trivia Ready</string>
+    <string name="quit">Quit</string>
+    <string name="next">Next</string>
+    <string name="stats">Trivia Stats</string>
+    <string name="again">Try Again</string>
+    <string name="correct">Correct Answers</string>
+    <string name="stat_text1">Try again and see if you can get</string>
+    <string name="stat_text2">all the answers correct!</string>
+    <string name="progDialogTitle">Loading Trivia</string>
+    <string name="comp">Good Job!!</string>
+    <string name="time">Time Left:</string>
+</resources>
