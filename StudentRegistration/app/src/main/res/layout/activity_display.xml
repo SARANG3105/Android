@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ubuntu.inclass03.DisplayActivity">
+
+    <TextView
+        android:id="@+id/tv_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:text="@string/student_info"
+        android:textColor="@android:color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Dis_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tv_student"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/display_name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/dis_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Dis_name"
+        android:layout_alignStart="@+id/Dis_name"
+        android:layout_below="@+id/Dis_name"
+        android:layout_marginTop="20dp"
+        android:text="@string/display_email"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/dis_dept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dis_email"
+        android:layout_alignStart="@+id/dis_email"
+        android:layout_below="@+id/dis_email"
+        android:layout_marginTop="22dp"
+        android:text="@string/display_department"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/dis_mood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/dis_dept"
+        android:layout_alignStart="@+id/dis_dept"
+        android:layout_below="@+id/dis_dept"
+        android:layout_marginTop="25dp"
+        android:text="@string/display_mood"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Dis_name"
+        android:layout_alignBottom="@+id/Dis_name"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/Dis_name"
+        android:layout_toRightOf="@+id/Dis_name"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dis_dept"
+        android:layout_toEndOf="@+id/Dis_name"
+        android:layout_toRightOf="@+id/Dis_name"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dis_dept"
+        android:layout_alignBottom="@+id/dis_dept"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_toEndOf="@+id/dis_dept"
+        android:layout_toRightOf="@+id/dis_dept"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/dis_mood"
+        android:layout_alignBottom="@+id/dis_mood"
+        android:layout_alignLeft="@+id/textView11"
+        android:layout_alignStart="@+id/textView11"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButton6"
+        android:layout_alignStart="@+id/imageButton6"
+        android:layout_below="@+id/textView13"
+        android:background="@android:color/background_light"
+        android:padding="0dp"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButton3"
+        android:layout_alignLeft="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton3"
+        android:layout_below="@+id/imageButton7"
+        android:background="@android:color/background_light"
+        android:padding="0dp"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/dis_dept"
+        android:layout_alignLeft="@+id/imageButton8"
+        android:layout_alignStart="@+id/imageButton8"
+        android:layout_below="@+id/imageButton6"
+        android:background="@android:color/background_light"
+        android:padding="0dp"
+        android:src="@drawable/ic_action_edit" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView11"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/tv_student"
+        android:layout_toRightOf="@+id/tv_student"
+        android:background="@android:color/background_light"
+        android:padding="0dp"
+        android:src="@drawable/ic_action_edit" />
+
+</android.widget.RelativeLayout>
