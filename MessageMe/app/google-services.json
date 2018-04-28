@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "775287807386",
+    "firebase_url": "https://messageme-7b5d6.firebaseio.com",
+    "project_id": "messageme-7b5d6",
+    "storage_bucket": "messageme-7b5d6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775287807386:android:d05d62f5ef71f977",
+        "android_client_info": {
+          "package_name": "com.example.ubuntu.messageme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775287807386-j11vol5071n595c7vauc6tnf3kt89ca8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrP4Eyirfz7WV2VGChoutjgNEE3vdGcQE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

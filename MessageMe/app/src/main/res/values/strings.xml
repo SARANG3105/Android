@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">MessageMe!</string>
+    <string name="signup_act">MessageMe!(Sign Up)</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User?</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="cancel">Cancel</string>
+    <string name="fname">First Name</string>
+    <string name="lname">Last Name</string>
+    <string name="confirm">Confirm Password</string>
+    <string name="inbox">Inbox</string>
+    <string name="to">To:</string>
+    <string name="send">Send</string>
+    <string name="compose">Compose mail...</string>
+</resources>
