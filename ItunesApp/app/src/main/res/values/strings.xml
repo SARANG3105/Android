@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ItunesApp</string>
+    <string name="appList">App List</string>
+    <string name="history">History</string>
+    <string name="mainActivity">Main Activity</string>
+    <string name="appsActivity">Apps Activity</string>
+    <string name="detailsActivity">Details Activity</string>
+    <string name="sortBydev">Sort by Developer</string>
+    <string name="sortByApp">Sort by App Name</string>
+    <string name="sortByPrice">Sort by App Price</string>
+    <string name="clearHis">Clear History</string>
+    <string name="appTitle">App Title</string>
+
+
+</resources>
