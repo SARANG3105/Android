@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Midterm1</string>
+    <string name="mainTitle">Main Screen</string>
+    <string name="searchMovie">Search Movies</string>
+    <string name="searchBtn">Search</string>
+    <string name="results">Results</string>
+    <string name="hint">Movie Name</string>
+</resources>
