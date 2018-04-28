@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Homework02</string>
+    <string name="title">Title</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="priority">Priority:</string>
+    <string name="high">High</string>
+    <string name="medium">Medium</string>
+    <string name="low">Low</string>
+    <string name="save">Save</string>
+    <string name="main_title">Press + to add task</string>
+    <string name="main_taskCount">Task 0 of 0</string>
+
+
+</resources>
